@@ -13,7 +13,7 @@ public class Passwort {
     }
 
     private static void pwchecker() {
-        while(true){
+        for(int i = 0; i < 3; i++){
             String pw = inputString("Bitte geben Sie ein Passwort ein.");
         String pw2 = inputString("Bitte wiederholen Sie Ihr Passwort ein.");
             if (pw.equals(pw2)) {
